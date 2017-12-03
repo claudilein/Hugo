@@ -1,0 +1,19 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Unreal Blueprint Documentation"
+theme = "docDock"
+
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+themeVariant = "gold"
